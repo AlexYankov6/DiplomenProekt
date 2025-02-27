@@ -191,6 +191,10 @@ namespace ProektAleks.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("NameApartments")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -261,6 +265,10 @@ namespace ProektAleks.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Garage")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
