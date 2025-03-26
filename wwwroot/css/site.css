@@ -20,3 +20,47 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+footer {
+    background-color: darkred;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px 16px;
+    position: absolute;
+    top: 100%;
+    flex-wrap: wrap;
+}
+.InfoTitle {
+    color: white;
+    text-shadow: 2px 2px black;
+    text-justify: auto;
+    font-size: 120%;
+    font-family: cursive;
+}
+
+.contactsMainText {
+    font-family: cursive;
+    color: white;
+    text-shadow: 1px 1px black;
+    text-decoration: none;
+}
+
+    .contactsMainText:hover {
+        color: aliceblue;
+    }
+
+.contactsText {
+    font-family: cursive;
+    color: white;
+}
+
+.socialMediaImg {
+    display: flex;
+    justify-content: space-around;
+}
+
+    .socialMediaImg img {
+        width: 50px;
+    }
+    

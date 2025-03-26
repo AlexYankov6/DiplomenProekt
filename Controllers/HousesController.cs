@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -19,10 +20,23 @@ namespace ProektAleks.Controllers
         }
 
         // GET: Houses
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string category)
         {
-            var applicationDbContext = _context.Houses.Include(h => h.Categories);
-            return View(await applicationDbContext.ToListAsync());
+            if (category == "Houses")
+            {
+                var houses = _context.Houses
+               .Include(h => h.Categories)
+               .Where(h => h.Categories.Name == category);
+                return View(await houses.ToListAsync());
+            }
+            else
+            {
+                var houses = _context.Houses
+                    .Include(h => h.Categories)
+                    .Where(h => h.Categories.Name != "Houses");
+                return View(await houses.ToListAsync());
+            }
+            //return View(await houses.ToListAsync());
         }
 
         // GET: Houses/Details/5
@@ -45,6 +59,7 @@ namespace ProektAleks.Controllers
         }
 
         // GET: Houses/Create
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
@@ -52,8 +67,6 @@ namespace ProektAleks.Controllers
         }
 
         // POST: Houses/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,CatalogNumberId,NameProperty,Floors,CategoryId,Quadrature,YardSpace,Annex,Garage,AddressProperty,Description,ImageUrl,Price,DateRegister")] House house)

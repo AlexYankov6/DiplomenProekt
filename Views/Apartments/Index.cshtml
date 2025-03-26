@@ -5,16 +5,19 @@
 }
 
 <h1>Index</h1>
+@if (User.IsInRole("Admin"))
+{
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+}
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
-            <th>
+            @* <th>
                 @Html.DisplayNameFor(model => model.CatalogNumberId)
-            </th>
+            </th> *@
             <th>
                 @Html.DisplayNameFor(model => model.NameApartments)
             </th>
@@ -42,52 +45,61 @@
             <th>
                 @Html.DisplayNameFor(model => model.Price)
             </th>
-            <th>
+            @* <th>
                 @Html.DisplayNameFor(model => model.DateRegister)
-            </th>
+            </th> *@
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
+        @foreach (var item in Model) {
+            <tr>
+                @* <td>
                 @Html.DisplayFor(modelItem => item.CatalogNumberId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NameApartments)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Floor)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Categories.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Quadrature)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Garage)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AddressProperty)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ImageUrl)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DateRegister)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+            </td> *@
+                <td>
+                    @Html.DisplayFor(modelItem => item.NameApartments)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Floor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Categories.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quadrature)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Garage)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AddressProperty)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @*  @Html.DisplayFor(modelItem => item.ImageUrl) *@
+                    <img src="@item.ImageUrl" width="100" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                @* <td>
+                    @Html.DisplayFor(modelItem => item.DateRegister)
+                </td> *@
+                <td>
+                    @if(User.IsInRole("Admin"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    }
+               |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+               
+                    |
+                    <a asp-controller="ReservationApartments" 
+                      asp-action="Create" asp-route-apartmentId="@item.Id">REZERVIRAI</a>
             </td>
         </tr>
 }

@@ -1,0 +1,82 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<ProektAleks.Data.ReservationApartment>
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+@if (User.IsInRole("Admin"))
+{
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+}
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Users)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Apartments)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Comment)
+                </th>
+                <th>
+                    @if(User.IsInRole("Admin"))
+                    {
+                    @Html.DisplayNameFor(model => model.DateReview)
+                    }
+
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DateChoice)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Users.UserName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Apartments.NameApartments)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Comment)
+                    </td>
+                    @* <td>
+
+                        @Html.DisplayFor(modelItem => item.DateReview)
+
+                    </td> *@
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateChoice)
+                    </td>
+                    <td>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        }
+                        |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    
+
+
+

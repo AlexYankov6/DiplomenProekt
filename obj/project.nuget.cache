@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rscsC8/c0ys=",
+  "dgSpecHash": "4ieIrU1Z1aY=",
   "success": true,
-  "projectFilePath": "D:\\projectAleks\\ProektAleks\\ProektAleks.csproj",
+  "projectFilePath": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\ProektAleks.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aleks\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\aleks\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

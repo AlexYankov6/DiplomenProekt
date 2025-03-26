@@ -12,19 +12,64 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ProektAleks</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/Images/logoProstor.png" width="100" height="100" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Apartments" asp-action="Index">Apartments</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Houses" asp-action="Index">Houses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ReservationApartments" asp-action="Index">ReservationApartments</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ReservationHouses" asp-action="Index">ReservationHouses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Houses" asp-action="Index" asp-route-category="Houses">Къщи с Двор</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Houses" asp-action="Index" asp-route-category="other">Етаж от къща</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Начало</a>
+                            </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Apartments" asp-action="Index">Апартаменти</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Houses" asp-action="Index" asp-route-category="Houses">Къщи с Двор</a>
                         </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Houses" asp-action="Index" asp-route-category="other">Етаж от къща</a>
+                            </li>
+                        }
+                        @if (User.IsInRole("User"))
+                        {
+                            
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ReservationApartments" asp-action="Index">Резервирани апартаменти</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ReservationHouses" asp-action="Index">Резервирани къщи</a>
+                            </li>
+                        }
+                            
+                        
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
@@ -37,9 +82,47 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - ProektAleks - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer class="footer text-muted" style="bottom: auto;">
+        <div class="footer-info">
+            <div class="socials-title">
+                <span class="InfoTitle">КОНТАКТИ:</span>
+                <div class="socials">
+                    <div class="contactsContainer">
+                        <div class="socials-text"><span class="contactsMainText">Телефон:</span> <span class="contactsText" style="font-family: cursive;">+359 823 532 134</span></div>
+                    </div>
+                </div>
+                <div class="socials">
+                    <div class="contactsContainer">
+                        <div class="socials-text"><span class="contactsMainText">Email:</span> <span class="contactsText" style="font-family: cursive;">prostorbg@gmail.com</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-info">
+            <div class="socials-title">
+                <span class="InfoTitle">ИНФОРМАЦИЯ:</span>
+                <div class="socials">
+                    <div class="contactsContainer">
+                        <div class="socials-text"><a class="contactsMainText" href="~/Home/Index#HomeHeadings">За ПросторБГ</a></div>
+                    </div>
+                    <div class="socials">
+                        <div class="contactsContainer">
+                            <div class="socials-text"><span class="contactsMainText">Адрес:</span> <span class="contactsText">град Сопот, България</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-info">
+            <div class="socials-title">
+                <span class="InfoTitle">ПОСЛЕДВАЙТЕ НИ В:</span>
+                <div class="socials">
+                    <div class="socialMediaImg">
+                        <div class="SocialMediaIcons"><a href="https://instagram.com"><img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-512.png" /></a></div>
+                        <div class="SocialMediaIcons"><a href="https://www.facebook.com"><img src="https://cdn-icons-png.flaticon.com/512/81/81341.png" /></a></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

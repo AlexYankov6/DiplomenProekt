@@ -4,78 +4,78 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Създай</h1>
 
-<h4>House</h4>
+<h4>Къща</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="CatalogNumberId" class="control-label"></label>
+                <label asp-for="CatalogNumberId" class="control-label">Каталожен номер</label>
                 <input asp-for="CatalogNumberId" class="form-control" />
                 <span asp-validation-for="CatalogNumberId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="NameProperty" class="control-label"></label>
+                <label asp-for="NameProperty" class="control-label">Име на имота</label>
                 <input asp-for="NameProperty" class="form-control" />
                 <span asp-validation-for="NameProperty" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Floors" class="control-label"></label>
+                <label asp-for="Floors" class="control-label">Етажи</label>
                 <input asp-for="Floors" class="form-control" />
                 <span asp-validation-for="Floors" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="CategoryId" class="control-label"></label>
+                <label asp-for="CategoryId" class="control-label">Категория</label>
                 <select asp-for="CategoryId" class ="form-control" asp-items="ViewBag.CategoryId"></select>
             </div>
             <div class="form-group">
-                <label asp-for="Quadrature" class="control-label"></label>
+                <label asp-for="Quadrature" class="control-label">Квадратура</label>
                 <input asp-for="Quadrature" class="form-control" />
                 <span asp-validation-for="Quadrature" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="YardSpace" class="control-label"></label>
+                <label asp-for="YardSpace" class="control-label">Дворно място</label>
                 <input asp-for="YardSpace" class="form-control" />
                 <span asp-validation-for="YardSpace" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Annex" class="control-label"></label>
+                <label asp-for="Annex" class="control-label">Пристройка</label>
                 <input asp-for="Annex" class="form-control" />
                 <span asp-validation-for="Annex" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Garage" class="control-label"></label>
+                <label asp-for="Garage" class="control-label">Гараж</label>
                 <input asp-for="Garage" class="form-control" />
                 <span asp-validation-for="Garage" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="AddressProperty" class="control-label"></label>
+                <label asp-for="AddressProperty" class="control-label">Адрес на имота</label>
                 <input asp-for="AddressProperty" class="form-control" />
                 <span asp-validation-for="AddressProperty" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
+                <label asp-for="Description" class="control-label">Описание</label>
                 <input asp-for="Description" class="form-control" />
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ImageUrl" class="control-label"></label>
+                <label asp-for="ImageUrl" class="control-label">Снимка</label>
                 <input asp-for="ImageUrl" class="form-control" />
                 <span asp-validation-for="ImageUrl" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Price" class="control-label"></label>
+                <label asp-for="Price" class="control-label">Цена</label>
                 <input asp-for="Price" class="form-control" />
                 <span asp-validation-for="Price" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="DateRegister" class="control-label"></label>
+            @* <div class="form-group">
+                <label asp-for="DateRegister" class="control-label">Дата на регистрация</label>
                 <input asp-for="DateRegister" class="form-control" />
                 <span asp-validation-for="DateRegister" class="text-danger"></span>
-            </div>
+            </div> *@
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>

@@ -1,8 +1,88 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<style>
+    #imageContainer {
+        position: relative;
+    }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+        #imageContainer img {
+            overflow: hidden;
+            justify-content: center;
+            width: 100%;
+            height: 900px;
+            border-radius: 2%;
+        }
+
+        #imageContainer h1 {
+            position: absolute;
+            top: 3%;
+            left: 30%;
+            right: 0%;
+            color: black;
+            font-size: 40px;
+            font-family: cursive;
+            text-shadow: 3px 3px white;
+        }
+
+    .aboutusImage {
+        width: 50%;
+        padding: 10px
+    }
+
+        .aboutusImage img {
+            max-width: 100%;
+            height: auto;
+        }
+
+    #aboutUsContainer {
+        display: flex;
+    }
+
+    #HomeHeadings {
+        color: darkred;
+        font-weight: 500;
+        text-shadow: 1px 1px darkred, 2px 2px darkred;
+    }
+
+    .aboutusText {
+        width: 50%;
+        padding: 10px;
+        text-align: justify;
+    }
+
+        .aboutusText p {
+            font-size: 18px;
+            font-family: cursive;
+            color: darkred;
+        }
+</style>
+
+
+<div id="imageContainer">
+   
+    <img src="~/Images/real_estate_for_sale.jpg" />
+    <h1>Добре дошли в "ПросторБГ"</h1>
 </div>
+
+<hr id="AboutUs" />
+<h1 id="HomeHeadings">За ПросторБГ</h1>
+<div id="aboutUsContainer">
+    <div class="aboutusImage">
+        <img src="https://www.generalinvest.bg/sites/default/files/475902405_1.jpg" />
+    </div>
+    <div class="aboutusText">
+        <p>
+            ПросторБГ е българска компания, посветена на това да помага на хората да откриват своето мечтано място – било то уютен дом, ваканционен имот или сигурна инвестиция.
+
+            Нашата мисия е проста: да направим покупката или продажбата на имот лесна, спокойна и сигурна. Предлагаме внимателно подбрано портфолио от имоти в цялата страна – от просторни апартаменти в града до къщи с гледка към планината или морето.
+
+            Вярваме, че доверието е в основата на всяко добро партньорство. Затова се стремим да бъдем до вас с ясни съвети, актуална информация и професионално отношение – от първия оглед до финализирането на сделката.
+
+            С ПросторБГ имотите не са просто квадратни метри – те са възможност за ново начало
+        </p>
+    </div>
+</div>
+
+
+

@@ -2223,6 +2223,252 @@
       ]
     },
     {
+      "Route": "Images/Nachalna.jpg",
+      "AssetFile": "Images/Nachalna.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y0hWybTzfzPmrCpTRpLMY4at498CYqXdmXGl9SwooD8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 10:04:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y0hWybTzfzPmrCpTRpLMY4at498CYqXdmXGl9SwooD8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Nachalna.tg0tkz5v75.jpg",
+      "AssetFile": "Images/Nachalna.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y0hWybTzfzPmrCpTRpLMY4at498CYqXdmXGl9SwooD8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 10:04:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tg0tkz5v75"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y0hWybTzfzPmrCpTRpLMY4at498CYqXdmXGl9SwooD8="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Nachalna.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/logoProstor.1htx6llmoc.png",
+      "AssetFile": "Images/logoProstor.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "99139"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dR2vAe+ouF1dBIl7WTmQSbuViP72Bs5iCyHnE7Q1dGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 07:37:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1htx6llmoc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dR2vAe+ouF1dBIl7WTmQSbuViP72Bs5iCyHnE7Q1dGY="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/logoProstor.png"
+        }
+      ]
+    },
+    {
+      "Route": "Images/logoProstor.png",
+      "AssetFile": "Images/logoProstor.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "99139"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dR2vAe+ouF1dBIl7WTmQSbuViP72Bs5iCyHnE7Q1dGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 07:37:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dR2vAe+ouF1dBIl7WTmQSbuViP72Bs5iCyHnE7Q1dGY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/real_estate_for_sale.jpg",
+      "AssetFile": "Images/real_estate_for_sale.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "450371"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0+57qeHweVsMU2foaMD0M7jabmhX37MHyw3Qpt12KNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 06:19:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0+57qeHweVsMU2foaMD0M7jabmhX37MHyw3Qpt12KNg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/real_estate_for_sale.n78529zwij.jpg",
+      "AssetFile": "Images/real_estate_for_sale.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "450371"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0+57qeHweVsMU2foaMD0M7jabmhX37MHyw3Qpt12KNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 06:19:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n78529zwij"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0+57qeHweVsMU2foaMD0M7jabmhX37MHyw3Qpt12KNg="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/real_estate_for_sale.jpg"
+        }
+      ]
+    },
+    {
       "Route": "ProektAleks.styles.css",
       "AssetFile": "ProektAleks.styles.css",
       "Selectors": [],
@@ -2305,7 +2551,7 @@
       ]
     },
     {
-      "Route": "css/site.c2tiyv64ts.css",
+      "Route": "css/site.7b5w9iv6jb.css",
       "AssetFile": "css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2319,7 +2565,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "1141"
         },
         {
           "Name": "Content-Type",
@@ -2327,21 +2573,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"HXzrKSLPhGW9HrHdfsnz+qQ1KmMlaMXxX0CyLCMBWkU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 07:22:15 GMT"
+          "Value": "Wed, 26 Mar 2025 07:43:37 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "7b5w9iv6jb"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-HXzrKSLPhGW9HrHdfsnz+qQ1KmMlaMXxX0CyLCMBWkU="
         },
         {
           "Name": "label",
@@ -2364,7 +2610,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "1141"
         },
         {
           "Name": "Content-Type",
@@ -2372,17 +2618,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"HXzrKSLPhGW9HrHdfsnz+qQ1KmMlaMXxX0CyLCMBWkU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 07:22:15 GMT"
+          "Value": "Wed, 26 Mar 2025 07:43:37 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-HXzrKSLPhGW9HrHdfsnz+qQ1KmMlaMXxX0CyLCMBWkU="
         }
       ]
     },

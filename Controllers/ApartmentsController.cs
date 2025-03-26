@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +10,7 @@ using ProektAleks.Data;
 
 namespace ProektAleks.Controllers
 {
+    
     public class ApartmentsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -45,6 +47,7 @@ namespace ProektAleks.Controllers
         }
 
         // GET: Apartments/Create
+        [Authorize(Roles ="Admin")]
         public IActionResult Create()
         {
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
@@ -52,11 +55,9 @@ namespace ProektAleks.Controllers
         }
 
         // POST: Apartments/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,CatalogNumberId,NameApartments,Floor,CategoryId,Quadrature,Garage,AddressProperty,Description,ImageUrl,Price,DateRegister")] Apartment apartment)
+        public async Task<IActionResult> Create([Bind("CatalogNumberId,NameApartments,Floor,CategoryId,Quadrature,Garage,AddressProperty,Description,ImageUrl,Price,DateRegister")] Apartment apartment)
         {
             if (ModelState.IsValid)
             {
