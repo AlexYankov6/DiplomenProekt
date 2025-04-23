@@ -4,74 +4,74 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Детайли</h1>
 
 <div>
     <h4>Apartment</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CatalogNumberId)
+            Каталожен номер
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.CatalogNumberId)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NameApartments)
+            Име на апартамента
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.NameApartments)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Floor)
+            Етаж
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Floor)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Categories)
+            Категория
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Categories.Name)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Quadrature)
+            Квадратура
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Quadrature)
+            @Html.DisplayFor(model => model.Quadrature)м²
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Garage)
+            Гараж
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Garage)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.AddressProperty)
+            Адрес на апартамента
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.AddressProperty)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
+            Описание
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Description)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ImageUrl)
+            Снимки
         </dt>
         <dd class = "col-sm-10">
             <img src="@Html.DisplayFor(model => model.ImageUrl)" width="240" />
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Price)
+             Цена
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)
+            @Html.DisplayFor(model => model.Price)лв
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DateRegister)
+            Дата на обявата
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.DateRegister)
@@ -85,5 +85,5 @@
  
     }
     
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Назад</a>
 </div>

@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\Images\\Nachalna.jpg"
     },
     {
+      "Id": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\Images\\loginSnimka.jpg",
+      "PackagePath": "staticwebassets\\Images\\loginSnimka.jpg"
+    },
+    {
       "Id": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\Images\\logoProstor.png",
       "PackagePath": "staticwebassets\\Images\\logoProstor.png"
     },

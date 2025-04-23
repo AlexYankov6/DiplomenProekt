@@ -4,26 +4,26 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Детайли</h1>
 
 <div>
-    <h4>ReservationHouse</h4>
+    <h4>Резервирана къща</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Users)
+            Прякор
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Users.UserName)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Houses)
+            Име на къща
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Houses.NameProperty)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Comment)
+            Коментар
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Comment)
@@ -35,7 +35,7 @@
             @Html.DisplayFor(model => model.DateReview)
         </dd> *@
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DateChoice)
+            Дата на оглед
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.DateChoice)

@@ -6,7 +6,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Резервирани апартаменти</h1>
 @if (User.IsInRole("Admin"))
 {
     <p>
@@ -19,13 +19,13 @@
         <thead>
             <tr>
                 <th>
-                    @Html.DisplayNameFor(model => model.Users)
+                    Прякор
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Apartments)
+                    Апартаменти
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Comment)
+                    Коментар
                 </th>
                 <th>
                     @if(User.IsInRole("Admin"))
@@ -35,7 +35,7 @@
 
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.DateChoice)
+                    Дата на оглед
                 </th>
                 <th></th>
             </tr>
@@ -68,7 +68,7 @@
                             <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
                         }
                         |
-                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Детайли</a> |
 
                     </td>
                 </tr>

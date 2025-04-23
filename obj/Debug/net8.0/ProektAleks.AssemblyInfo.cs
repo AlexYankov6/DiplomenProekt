@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProektAleks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b47d8adf0abb76de37e16caea6f4b497d37e06ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+496ae111ae8efef1fa3cc5c000873e325287d2d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProektAleks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProektAleks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

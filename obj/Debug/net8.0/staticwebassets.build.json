@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qe/ZKSxmlo3rnlirPB0/Yy/OHeP90x2YKTymqJZBqE8=",
+  "Hash": "ADEqPYJ43UPWgSKUN20P3taxN97GMBPDjT3EgBjtqE0=",
   "Source": "ProektAleks",
   "BasePath": "_content/ProektAleks",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7b5w9iv6jb",
-      "Integrity": "HXzrKSLPhGW9HrHdfsnz+qQ1KmMlaMXxX0CyLCMBWkU=",
+      "Fingerprint": "c61byxh1i8",
+      "Integrity": "tLAOhVXaaJsG5H4reg1tomAZW5f20aEyHW7OhB9WvWg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1359,6 +1359,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\Images\\loginSnimka.jpg",
+      "SourceId": "ProektAleks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\",
+      "BasePath": "_content/ProektAleks",
+      "RelativePath": "Images/loginSnimka#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jw8xwzeiga",
+      "Integrity": "U5ebXttPfY4kgP27SWllE4XUrtWUrle67EPIBuBGOyA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\loginSnimka.jpg"
     },
     {
       "Identity": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\Images\\logoProstor.png",
@@ -2644,7 +2665,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.7b5w9iv6jb.css",
+      "Route": "css/site.c61byxh1i8.css",
       "AssetFile": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2654,7 +2675,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1141"
+          "Value": "1304"
         },
         {
           "Name": "Content-Type",
@@ -2662,11 +2683,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HXzrKSLPhGW9HrHdfsnz+qQ1KmMlaMXxX0CyLCMBWkU=\""
+          "Value": "\"tLAOhVXaaJsG5H4reg1tomAZW5f20aEyHW7OhB9WvWg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 07:43:37 GMT"
+          "Value": "Wed, 02 Apr 2025 06:24:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2676,7 +2697,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7b5w9iv6jb"
+          "Value": "c61byxh1i8"
         },
         {
           "Name": "label",
@@ -2684,7 +2705,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-HXzrKSLPhGW9HrHdfsnz+qQ1KmMlaMXxX0CyLCMBWkU="
+          "Value": "sha256-tLAOhVXaaJsG5H4reg1tomAZW5f20aEyHW7OhB9WvWg="
         }
       ]
     },
@@ -2699,7 +2720,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1141"
+          "Value": "1304"
         },
         {
           "Name": "Content-Type",
@@ -2707,11 +2728,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HXzrKSLPhGW9HrHdfsnz+qQ1KmMlaMXxX0CyLCMBWkU=\""
+          "Value": "\"tLAOhVXaaJsG5H4reg1tomAZW5f20aEyHW7OhB9WvWg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 07:43:37 GMT"
+          "Value": "Wed, 02 Apr 2025 06:24:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2721,7 +2742,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HXzrKSLPhGW9HrHdfsnz+qQ1KmMlaMXxX0CyLCMBWkU="
+          "Value": "sha256-tLAOhVXaaJsG5H4reg1tomAZW5f20aEyHW7OhB9WvWg="
         }
       ]
     },
@@ -5024,6 +5045,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+        }
+      ]
+    },
+    {
+      "Route": "Images/loginSnimka.jpg",
+      "AssetFile": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\Images\\loginSnimka.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "762910"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U5ebXttPfY4kgP27SWllE4XUrtWUrle67EPIBuBGOyA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 10:55:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U5ebXttPfY4kgP27SWllE4XUrtWUrle67EPIBuBGOyA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/loginSnimka.jw8xwzeiga.jpg",
+      "AssetFile": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\Images\\loginSnimka.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "762910"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U5ebXttPfY4kgP27SWllE4XUrtWUrle67EPIBuBGOyA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 10:55:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jw8xwzeiga"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/loginSnimka.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U5ebXttPfY4kgP27SWllE4XUrtWUrle67EPIBuBGOyA="
         }
       ]
     },

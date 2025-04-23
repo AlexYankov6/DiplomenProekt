@@ -63,4 +63,15 @@ footer {
     .socialMediaImg img {
         width: 50px;
     }
+.nav-link {
+    font-family: cursive;
+    font-size: 20px;
+}
+.Heading {
+    color: darkred;
+    text-shadow: 1px 1px #601F20;
+    font-weight: 750;
+}
+
+
     
