@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ADEqPYJ43UPWgSKUN20P3taxN97GMBPDjT3EgBjtqE0=",
+  "Hash": "q7rVHl5WOHZpjKnRRsJES7NsZKV3uFQecsBU6Ay3qbc=",
   "Source": "ProektAleks",
   "BasePath": "_content/ProektAleks",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c61byxh1i8",
-      "Integrity": "tLAOhVXaaJsG5H4reg1tomAZW5f20aEyHW7OhB9WvWg=",
+      "Fingerprint": "fachl9kxoy",
+      "Integrity": "iS6WHJ/+RfLIUHfqSD+76bJAtztIcew1ZSsb5AlfuRQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1380,6 +1380,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\loginSnimka.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\Images\\logo2.png",
+      "SourceId": "ProektAleks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\",
+      "BasePath": "_content/ProektAleks",
+      "RelativePath": "Images/logo2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wypw24k6vp",
+      "Integrity": "eN0asbeXyIZBl5VjBE1S2MJgs85ZPtVO8jdGCCejnPc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\logo2.png"
     },
     {
       "Identity": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\Images\\logoProstor.png",
@@ -2665,51 +2686,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.c61byxh1i8.css",
-      "AssetFile": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1304"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tLAOhVXaaJsG5H4reg1tomAZW5f20aEyHW7OhB9WvWg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 06:24:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c61byxh1i8"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-tLAOhVXaaJsG5H4reg1tomAZW5f20aEyHW7OhB9WvWg="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2720,7 +2696,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1304"
+          "Value": "2105"
         },
         {
           "Name": "Content-Type",
@@ -2728,11 +2704,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tLAOhVXaaJsG5H4reg1tomAZW5f20aEyHW7OhB9WvWg=\""
+          "Value": "\"iS6WHJ/+RfLIUHfqSD+76bJAtztIcew1ZSsb5AlfuRQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 06:24:09 GMT"
+          "Value": "Mon, 28 Apr 2025 08:45:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2742,7 +2718,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tLAOhVXaaJsG5H4reg1tomAZW5f20aEyHW7OhB9WvWg="
+          "Value": "sha256-iS6WHJ/+RfLIUHfqSD+76bJAtztIcew1ZSsb5AlfuRQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.fachl9kxoy.css",
+      "AssetFile": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2105"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iS6WHJ/+RfLIUHfqSD+76bJAtztIcew1ZSsb5AlfuRQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 08:45:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fachl9kxoy"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iS6WHJ/+RfLIUHfqSD+76bJAtztIcew1ZSsb5AlfuRQ="
         }
       ]
     },
@@ -5127,6 +5148,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-U5ebXttPfY4kgP27SWllE4XUrtWUrle67EPIBuBGOyA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/logo2.png",
+      "AssetFile": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\Images\\logo2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23564"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eN0asbeXyIZBl5VjBE1S2MJgs85ZPtVO8jdGCCejnPc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 09:33:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eN0asbeXyIZBl5VjBE1S2MJgs85ZPtVO8jdGCCejnPc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/logo2.wypw24k6vp.png",
+      "AssetFile": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\Images\\logo2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23564"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eN0asbeXyIZBl5VjBE1S2MJgs85ZPtVO8jdGCCejnPc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 09:33:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wypw24k6vp"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/logo2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eN0asbeXyIZBl5VjBE1S2MJgs85ZPtVO8jdGCCejnPc="
         }
       ]
     },

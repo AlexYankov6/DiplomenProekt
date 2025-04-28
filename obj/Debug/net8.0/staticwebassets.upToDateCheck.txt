@@ -1,6 +1,7 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\Images\loginSnimka.jpg
+wwwroot\Images\logo2.png
 wwwroot\Images\logoProstor.png
 wwwroot\Images\Nachalna.jpg
 wwwroot\Images\real_estate_for_sale.jpg

@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/ProektAleks/css/site.c61byxh1i8.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"c61byxh1i8"},{"Name":"integrity","Value":"sha256-tLAOhVXaaJsG5H4reg1tomAZW5f20aEyHW7OhB9WvWg="},{"Name":"label","Value":"_content/ProektAleks/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1304"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022tLAOhVXaaJsG5H4reg1tomAZW5f20aEyHW7OhB9WvWg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:24:09 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ProektAleks/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tLAOhVXaaJsG5H4reg1tomAZW5f20aEyHW7OhB9WvWg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1304"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022tLAOhVXaaJsG5H4reg1tomAZW5f20aEyHW7OhB9WvWg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:24:09 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-iS6WHJ/\u002BRfLIUHfqSD\u002B76bJAtztIcew1ZSsb5AlfuRQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2105"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022iS6WHJ/\u002BRfLIUHfqSD\u002B76bJAtztIcew1ZSsb5AlfuRQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 08:45:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ProektAleks/css/site.fachl9kxoy.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fachl9kxoy"},{"Name":"integrity","Value":"sha256-iS6WHJ/\u002BRfLIUHfqSD\u002B76bJAtztIcew1ZSsb5AlfuRQ="},{"Name":"label","Value":"_content/ProektAleks/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2105"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022iS6WHJ/\u002BRfLIUHfqSD\u002B76bJAtztIcew1ZSsb5AlfuRQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 08:45:30 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ProektAleks/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -35,6 +35,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jw8xwzeiga"},{"Name":"integrity","Value":"sha256-U5ebXttPfY4kgP27SWllE4XUrtWUrle67EPIBuBGOyA="},{"Name":"label","Value":"_content/ProektAleks/Images/loginSnimka.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"762910"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022U5ebXttPfY4kgP27SWllE4XUrtWUrle67EPIBuBGOyA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 10:55:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ProektAleks/Images/logo2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\logo2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eN0asbeXyIZBl5VjBE1S2MJgs85ZPtVO8jdGCCejnPc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"23564"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022eN0asbeXyIZBl5VjBE1S2MJgs85ZPtVO8jdGCCejnPc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 09:33:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ProektAleks/Images/logo2.wypw24k6vp.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\logo2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wypw24k6vp"},{"Name":"integrity","Value":"sha256-eN0asbeXyIZBl5VjBE1S2MJgs85ZPtVO8jdGCCejnPc="},{"Name":"label","Value":"_content/ProektAleks/Images/logo2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"23564"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022eN0asbeXyIZBl5VjBE1S2MJgs85ZPtVO8jdGCCejnPc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 09:33:36 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ProektAleks/Images/logoProstor.1htx6llmoc.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\logoProstor.png'))</AssetFile>

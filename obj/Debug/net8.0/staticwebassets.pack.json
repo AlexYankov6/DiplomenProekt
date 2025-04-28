@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\Images\\loginSnimka.jpg"
     },
     {
+      "Id": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\Images\\logo2.png",
+      "PackagePath": "staticwebassets\\Images\\logo2.png"
+    },
+    {
       "Id": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\Images\\logoProstor.png",
       "PackagePath": "staticwebassets\\Images\\logoProstor.png"
     },
