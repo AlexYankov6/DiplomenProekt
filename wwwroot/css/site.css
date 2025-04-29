@@ -137,6 +137,70 @@ footer {
     color: darkred;
     font-family: cursive;
 }
+.DetailsImage {
+    text-align: center;
+}
+    .DetailsImage img {
+        max-width: 100%;
+        height: auto;
+    }
+.DetailPrice {
+    font-size: 24px; /* Голям размер на шрифта */
+    font-weight: bold; /* Удебелен текст */
+    color: darkred; /* Бял цвят за текста */
+    font-family: cursive;
+    position: absolute; /* Позициониране на цената вътре в контейнера */
+    top: 10px; /* Разстояние отгоре */
+    right: 150px; /* Разстояние отдясно */
+    
+    padding: 5px 10px; /* Вътрешни отстояния за по-добър вид */
+    border-radius: 5px;
+}
+.ApartmentInfoDetailed {
+    font-size: 50px;
+    font-weight: bold;
+    color: darkred;
+    font-family: cursive;
+    text-align: center;
+}
+.left-column {
+    font-weight: bold;
+    font-size: 17px;
+    font-family: cursive;
+    color: darkred;
+}
+
+.right-column {
+    font-size: 16px;
+    font-family: cursive;
+    color: darkred;
+}
+.zaglavieTable {
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    color: darkred;
+}
+.apartmentInformation {
+    position: relative;
+    display: flex;
+    align-items: center; /* Центрира вертикално снимката и цената */
+    gap: 20px;
+}
+.DetailsImage {
+    width: 50%;
+    border: 2px solid #959593;
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
+}
+    .DetailsImage img {
+        max-width: 100%;
+        max-height: 430px;
+        height: auto;
+    }
+
+
 
 
     

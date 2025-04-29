@@ -4,79 +4,75 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Детайли</h1>
+<h1 class="ApartmentInfoDetailed">@Html.DisplayFor(model => model.NameApartments)</h1>
 
-<div>
-    <h4>Apartment</h4>
+<div class="apartmentDetails">
+    <div class="apartmentInformation">
+        <div class="DetailsImage">
+            <img src="@Html.DisplayFor(model => model.ImageUrl)" />
+        </div>
+        <div class="DetailedApartments">
+            <dl>
+                <dd class="DetailPrice">
+                    Цена:@Html.DisplayFor(model => model.Price) лв
+                </dd>
+            </dl>
+        </div>
+    </div>
     <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            Каталожен номер
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CatalogNumberId)
-        </dd>
-        <dt class = "col-sm-2">
-            Име на апартамента
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NameApartments)
-        </dd>
-        <dt class = "col-sm-2">
-            Етаж
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Floor)
-        </dd>
-        <dt class = "col-sm-2">
-            Категория
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Categories.Name)
-        </dd>
-        <dt class = "col-sm-2">
-            Квадратура
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Quadrature)м²
-        </dd>
-        <dt class = "col-sm-2">
-            Гараж
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Garage)
-        </dd>
-        <dt class = "col-sm-2">
-            Адрес на апартамента
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.AddressProperty)
-        </dd>
-        <dt class = "col-sm-2">
-            Описание
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-        <dt class = "col-sm-2">
-            Снимки
-        </dt>
-        <dd class = "col-sm-10">
-            <img src="@Html.DisplayFor(model => model.ImageUrl)" width="240" />
-        </dd>
-        <dt class = "col-sm-2">
-             Цена
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)лв
-        </dd>
-        <dt class = "col-sm-2">
-            Дата на обявата
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DateRegister)
-        </dd>
-    </dl>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th colspan="2" class="zaglavieTable">Информация</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="left-column">Вид на имота</td>
+                <td class="right-column">@Html.DisplayFor(model => model.Categories.Name)
+            </tr>
+            <tr>
+                <td class="left-column">Каталожен номер</td>
+                <td class="right-column">@Html.DisplayFor(model => model.CatalogNumberId)</td>
+            </tr>
+            <tr>
+                <td class="left-column">Име на апартамента</td>
+                <td class="right-column">@Html.DisplayFor(model => model.NameApartments)</td>
+            </tr>
+            <tr>
+                <td class="left-column">Етаж</td>
+                <td class="right-column">@Html.DisplayFor(model => model.Floor)</td>
+            </tr>
+            <tr>
+                <td class="left-column">Категория</td>
+                <td class="right-column">@Html.DisplayFor(model => model.Categories.Name)</td>
+            </tr>
+            <tr>
+                <td class="left-column">Квадратура</td>
+                <td class="right-column">@Html.DisplayFor(model => model.Quadrature) м²</td>
+            </tr>
+            <tr>
+                <td class="left-column">Гараж</td>
+                <td class="right-column">@Html.DisplayFor(model => model.Garage)</td>
+            </tr>
+            <tr>
+                <td class="left-column">Адрес на апартамента</td>
+                <td class="right-column">@Html.DisplayFor(model => model.AddressProperty)</td>
+            </tr>
+            <tr>
+                <td class="left-column">Описание</td>
+                <td class="right-column">@Html.DisplayFor(model => model.Description)</td>
+            </tr>
+            <tr>
+                <td class="left-column">Цена</td>
+                <td class="right-column">@Html.DisplayFor(model => model.Price) лв</td>
+            </tr>
+            <tr>
+                <td class="left-column">Дата на обявата</td>
+                <td class="right-column">@Html.DisplayFor(model => model.DateRegister)</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 <div>
     @if (User.IsInRole("Admin"))
@@ -84,6 +80,8 @@
         <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a>
  
     }
-    
     <a asp-action="Index">Назад</a>
+       
+    
 </div>
+
