@@ -218,7 +218,7 @@ footer {
 .apartmentInformation {
     position: relative;
     display: flex;
-    align-items: center; /* Центрира вертикално снимката и цена */
+    align-items: center; /* Центрира вертикално снимката и це */
     gap: 20px;
 }
 .DetailsImage {
