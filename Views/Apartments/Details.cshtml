@@ -18,6 +18,17 @@
                 </dd>
             </dl>
         </div>
+        <div class="DetailedApartment">
+            <dl>
+                <dd class="DetailDescription">
+                    Описание: 
+                    <p>
+
+                    </p>
+                    @Html.DisplayFor(model => model.Description)
+                </dd>
+            </dl>
+        </div>
     </div>
     <hr />
     <table class="table table-bordered table-striped">
@@ -59,14 +70,7 @@
                 <td class="left-column">Адрес на апартамента</td>
                 <td class="right-column">@Html.DisplayFor(model => model.AddressProperty)</td>
             </tr>
-            <tr>
-                <td class="left-column">Описание</td>
-                <td class="right-column">@Html.DisplayFor(model => model.Description)</td>
-            </tr>
-            <tr>
-                <td class="left-column">Цена</td>
-                <td class="right-column">@Html.DisplayFor(model => model.Price) лв</td>
-            </tr>
+           
             <tr>
                 <td class="left-column">Дата на обявата</td>
                 <td class="right-column">@Html.DisplayFor(model => model.DateRegister)</td>
@@ -80,7 +84,7 @@
         <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a>
  
     }
-    <a asp-action="Index">Назад</a>
+    
        
     
 </div>
