@@ -10,7 +10,7 @@ namespace ProektAleks.Data
         public string NameApartments {  get; set; }
         public int Floor {  get; set; }
         public int CategoryId {  get; set; }//fk
-        public Category Categories { get; set; }//fk category
+        public Category Categories { get; set; }//fk categories
         public int Quadrature {  get; set; }
         public string Garage {  get; set; }
         public string AddressProperty { get; set; }

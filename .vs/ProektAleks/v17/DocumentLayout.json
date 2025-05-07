@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A14B45E3-DF2A-4A8E-BAB6-319D90975E32}|ProektAleks.csproj|c:\\users\\aleks\\desktop\\diplomenproekt\\data\\apartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A14B45E3-DF2A-4A8E-BAB6-319D90975E32}|ProektAleks.csproj|solutionrelative:data\\apartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A14B45E3-DF2A-4A8E-BAB6-319D90975E32}|ProektAleks.csproj|c:\\users\\aleks\\desktop\\diplomenproekt\\controllers\\apartmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A14B45E3-DF2A-4A8E-BAB6-319D90975E32}|ProektAleks.csproj|solutionrelative:controllers\\apartmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,6 +51,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Apartment.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\Data\\Apartment.cs",
+              "RelativeDocumentMoniker": "Data\\Apartment.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\Data\\Apartment.cs",
+              "RelativeToolTip": "Data\\Apartment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T13:16:17.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ApartmentsController.cs",
               "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\Controllers\\ApartmentsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ApartmentsController.cs",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\Views\\ReservationHouses\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\ReservationHouses\\Index.cshtml",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\Views\\ReservationApartments\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\ReservationApartments\\Index.cshtml",
@@ -83,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\Views\\Houses\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Houses\\Index.cshtml",
@@ -95,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\Views\\Apartments\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Apartments\\Index.cshtml",
@@ -107,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\Views\\Houses\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Houses\\Details.cshtml",
@@ -119,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\Views\\Apartments\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Apartments\\Details.cshtml",
@@ -131,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -139,8 +156,7 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AgIAANIAAAAAAAAAAAAUwNwAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-28T08:41:26.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T08:41:26.979Z"
             }
           ]
         }
