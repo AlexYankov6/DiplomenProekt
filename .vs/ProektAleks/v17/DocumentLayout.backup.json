@@ -106,8 +106,7 @@
               "RelativeToolTip": "Views\\Houses\\Index.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-07T12:04:50.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T12:04:50.675Z"
             },
             {
               "$type": "Document",
@@ -117,7 +116,7 @@
               "RelativeDocumentMoniker": "Views\\Apartments\\Index.cshtml",
               "ToolTip": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\Views\\Apartments\\Index.cshtml",
               "RelativeToolTip": "Views\\Apartments\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-09T07:06:04.929Z",
               "EditorCaption": ""
