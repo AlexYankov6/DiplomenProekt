@@ -3,8 +3,8 @@
 @{
     ViewData["Title"] = "Index";
 }
+<center> <h1 class="Heading">Резервирани къщи</h1> </center>
 
-<h1>Резервирани къщи</h1>
 @if (User.IsInRole("Admin"))
 {
     <p>
@@ -15,26 +15,30 @@
 <table class="table">
     <thead>
         <tr>
+            
             <th>
-                Потребителско име
-            </th>
-            <th>
-                Къщи
-            </th>
-            <th>
-               Коментар
-            </th>
-            <th>
-                @if (User.IsInRole("Admin"))
-                {
-                    @Html.DisplayNameFor(model => model.DateReview)
-                }
 
+			</th>
+            @if (User.IsInRole("Admin"))
+			{
+				<th>UserName</th>
 
+			}
+            <th class="ResName">
+                @* @Html.DisplayNameFor(model => model.Apartments.NameApartments) *@
+                Име на къщата
             </th>
-            <th>
+
+            <th class="ResName">
+                @* @Html.DisplayNameFor(model => model.DateChoice) *@
                 Дата на оглед
             </th>
+            @if (User.IsInRole("Admin"))
+            {
+                <th>ReviewName</th>
+
+            }
+
             <th></th>
         </tr>
     </thead>
@@ -43,32 +47,38 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Users.UserName)
+                    <a asp-action="Details" asp-route-id="@item.Id"><img src="@Html.DisplayFor(modelItem => item.Houses.ImageUrl)" width="65" height="auto" /></a>
                 </td>
+
+                @if (User.IsInRole("Admin"))
+                {
+                    <td>
+						@Html.DisplayFor(modelItem => item.Users.UserName)
+                    </td>
+                    
+                }
                 <td>
                     @Html.DisplayFor(modelItem => item.Houses.NameProperty)
                 </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Comment)
-                </td>
-                @* <td>
-
+                @if (User.IsInRole("Admin"))
+                {
+                    
+                    <td>
                         @Html.DisplayFor(modelItem => item.DateReview)
-
-                    </td> *@
+                    </td>
+                }
                 <td>
                     @Html.DisplayFor(modelItem => item.DateChoice)
                 </td>
                 <td>
-                    @if (User.IsInRole("Admin"))
-                    {
-                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
-                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                    }
-                    |
-                    <a asp-action="Details" asp-route-id="@item.Id">Детайли</a> |
-
+					@if (User.IsInRole("Admin"))
+					{
+						<a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+						<a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+					}
                 </td>
+                
+
             </tr>
         }
     </tbody>

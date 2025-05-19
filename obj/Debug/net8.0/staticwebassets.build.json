@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rr/ToEiFpeIdmLljgry7aLO7eGEYtRT1yvhZLMrIIYM=",
+  "Hash": "Ffipa0jMBz6BP/uvV4cFe2q3p6DBq+MwGItAx5K9YHk=",
   "Source": "ProektAleks",
   "BasePath": "_content/ProektAleks",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mu3k08n4th",
-      "Integrity": "fuA3qnCeJ8Uh7egZQ0GgYdiRjYk8iTIK1IzzQc02bis=",
+      "Fingerprint": "15ctc2i44y",
+      "Integrity": "tdZhaa9EXVdV9+eawqypuQovYGLBa3tSorHsGideIes=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2686,6 +2686,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/site.15ctc2i44y.css",
+      "AssetFile": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5233"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tdZhaa9EXVdV9+eawqypuQovYGLBa3tSorHsGideIes=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 17:23:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "15ctc2i44y"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tdZhaa9EXVdV9+eawqypuQovYGLBa3tSorHsGideIes="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2696,7 +2741,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5152"
+          "Value": "5233"
         },
         {
           "Name": "Content-Type",
@@ -2704,11 +2749,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fuA3qnCeJ8Uh7egZQ0GgYdiRjYk8iTIK1IzzQc02bis=\""
+          "Value": "\"tdZhaa9EXVdV9+eawqypuQovYGLBa3tSorHsGideIes=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 12:52:34 GMT"
+          "Value": "Mon, 19 May 2025 17:23:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2718,52 +2763,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fuA3qnCeJ8Uh7egZQ0GgYdiRjYk8iTIK1IzzQc02bis="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.mu3k08n4th.css",
-      "AssetFile": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5152"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fuA3qnCeJ8Uh7egZQ0GgYdiRjYk8iTIK1IzzQc02bis=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 12:52:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mu3k08n4th"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-fuA3qnCeJ8Uh7egZQ0GgYdiRjYk8iTIK1IzzQc02bis="
+          "Value": "sha256-tdZhaa9EXVdV9+eawqypuQovYGLBa3tSorHsGideIes="
         }
       ]
     },

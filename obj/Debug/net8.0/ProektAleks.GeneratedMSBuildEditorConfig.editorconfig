@@ -92,6 +92,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/aleks/Desktop/DiplomenProekt/Views/Home/Contacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/aleks/Desktop/DiplomenProekt/Views/Home/Index - Copy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleCAtIENvcHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -140,6 +144,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25BcGFydG1lbnRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/aleks/Desktop/DiplomenProekt/Views/ReservationApartments/Index - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25BcGFydG1lbnRzXEluZGV4IC0gQ29weS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/aleks/Desktop/DiplomenProekt/Views/ReservationApartments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25BcGFydG1lbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -158,6 +166,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/aleks/Desktop/DiplomenProekt/Views/ReservationHouses/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25Ib3VzZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleks/Desktop/DiplomenProekt/Views/ReservationHouses/Index - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25Ib3VzZXNcSW5kZXggLSBDb3B5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/aleks/Desktop/DiplomenProekt/Views/ReservationHouses/Index.cshtml]

@@ -1,0 +1,76 @@
+﻿@model IEnumerable<ProektAleks.Data.ReservationHouse>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Резервирани къщи</h1>
+@if (User.IsInRole("Admin"))
+{
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Потребителско име
+            </th>
+            <th>
+                Къщи
+            </th>
+            <th>
+               Коментар
+            </th>
+            <th>
+                @if (User.IsInRole("Admin"))
+                {
+                    @Html.DisplayNameFor(model => model.DateReview)
+                }
+
+
+            </th>
+            <th>
+                Дата на оглед
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Users.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Houses.NameProperty)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Comment)
+                </td>
+                @* <td>
+
+                        @Html.DisplayFor(modelItem => item.DateReview)
+
+                    </td> *@
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateChoice)
+                </td>
+                <td>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    }
+                    |
+                    <a asp-action="Details" asp-route-id="@item.Id">Детайли</a> |
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

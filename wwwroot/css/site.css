@@ -252,6 +252,11 @@ footer {
     align-items: center; /* Центрира вертикално снимката и цената */
     gap: 20px;
 }
+.ResName {
+    font-size: 20px;
+    font-family: cursive;
+    color: darkred;
+}
 
 
 

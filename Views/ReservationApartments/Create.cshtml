@@ -1,52 +1,120 @@
 ﻿@model ProektAleks.Data.ReservationApartment
 
 @{
-    ViewData["Title"] = "Create";
+	ViewData["Title"] = "Create";
 }
+<style>
+	body {
+		background-image: url(https://www.vidyard.com/media/real-estate-video-marketing-1920x1080-1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 
-<h1>Резервация на апартамент</h1>
+	.row {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border-radius: 8px;
+		box-shadow: 3px 3px 3px 1px;
+		width: 360px;
+		backdrop-filter: blur(5px);
+		background-color: rgba(255, 255, 255, 0.7);
+		margin-left: auto;
+		margin-right: auto;
+		font-family: cursive;
+	}
+
+	.col-md-4 {
+		width: 400px;
+		font-family: cursive;
+	}
+
+	.form-control {
+		font-family: cursive;
+	}
+
+	.HeadingCreate {
+		font-family: cursive;
+		font-weight: 900;
+		color: darkred;
+		text-shadow: 1px 1px black
+	}
+
+	.btnSubmit {
+		padding: 10px;
+		background-color: darkred;
+		border-color: darkred;
+	}
+
+	.AddBtn {
+		border-color: darkred;
+		display: flex;
+		justify-content: space-evenly;
+		padding: 10px;
+		width: 100%;
+	}
+
+		.AddBtn a {
+			background-color: darkred;
+			border-color: darkred;
+		}
+
+		.AddBtn input[type=submit] {
+			background-color: #79000E;
+			border-color: #79000E;
+		}
+
+		.AddBtn a:hover {
+			background-color: #6F2929;
+			border-color: #6F2929;
+		}
+
+	.BackBtn a:hover {
+		background-color: #6F2929;
+		border-color: #6F2929;
+	}
+
+	.col-md-4 input[type=text] {
+		color: #722F37;
+		font-family: cursive;
+	}
+</style>
+<center><h1 class="HeadingCreate">Резервация на апартамент</h1> </center>
 
 @* <h4>ReservationApartment</h4> *@
-<hr />
+<br />
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            @* <div class="form-group">
-                <label asp-for="UserId" class="control-label"></label>
-                <select asp-for="UserId" class ="form-control" asp-items="ViewBag.UserId"></select>
-            </div> *@
-           @*  <div class="form-group">
-                <label asp-for="ApartmentId" class="control-label"></label>
-                <select asp-for="ApartmentId" class ="form-control" asp-items="ViewBag.ApartmentId"></select>
-            </div> *@
-            <input type="hidden"  asp-for="ApartmentId" class="form-control" />
-            <div class="form-group">
-                <label asp-for="Comment" class="control-label">Коментар</label>
-                <input asp-for="Comment" class="form-control" />
-                <span asp-validation-for="Comment" class="text-danger"></span>
-            </div>
-            @* <div class="form-group">
-                <label asp-for="DateReview" class="control-label"></label>
-                <input asp-for="DateReview" class="form-control" />
-                <span asp-validation-for="DateReview" class="text-danger"></span>
-            </div> *@
-            <div class="form-group">
-                <label asp-for="DateChoice" class="control-label">Дата на оглед</label>
-                <input asp-for="DateChoice" class="form-control" />
-                <span asp-validation-for="DateChoice" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Резервирай" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
+	<div class="col-md-4">
+		<form asp-action="Create">
+			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+			<input type="hidden" asp-for="ApartmentId" class="form-control" />
+			<div class="form-group">
+				<label asp-for="Comment" class="control-label">Коментар</label>
+				<input asp-for="Comment" class="form-control" />
+				<span asp-validation-for="Comment" class="text-danger"></span>
+			</div>
+
+			<div class="form-group">
+				<label asp-for="DateChoice" class="control-label">Дата на оглед</label>
+				<input asp-for="DateChoice" class="form-control" />
+				<span asp-validation-for="DateChoice" class="text-danger"></span>
+			</div>
+			<div class="AddBtn">
+				<div class="form-group">
+					<input type="submit" value="Резервирай" class="btn btn-primary" />
+				</div>
+				<div class="BackHome">
+					<a asp-action="Index" class="btn btn-primary">Назад</a>
+				</div>
+			</div>
+		</form>
+	</div>
 </div>
 
-<div>
-    <a asp-action="Index">Назад</a>
-</div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
 }

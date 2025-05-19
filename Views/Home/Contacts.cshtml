@@ -1,0 +1,149 @@
+﻿@{
+    ViewData["Title"] = "Контакти";
+}
+<style>
+    body {
+        background-image: url(https://www.vidyard.com/media/real-estate-video-marketing-1920x1080-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .contactUs {
+        display: flex;
+        justify-content: space-evenly;
+        color: black;
+    }
+
+    .FirstForm {
+        font-family: cursive;
+        font-weight: 400;
+        border-radius: 15px;
+        background-color: #f2f2f2;
+        padding: 10px;
+        backdrop-filter: blur(4px);
+        width: 30%;
+        height: auto;
+    }
+
+    h3, legend {
+        color: darkred;
+        text-shadow: 1px 1px black;
+    }
+
+    p, b {
+        color: darkred; /* #ccad00; */
+    }
+
+    .SecondForm {
+        font-family: cursive;
+        font-weight: 400;
+        border-radius: 15px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        justify-content: center;
+        backdrop-filter: blur(4px);
+        width: 30%;
+        height: auto;
+    }
+
+        .SecondForm input[type=submit] {
+            background-color: darkred;
+            color: white;
+            padding: 7px 7px;
+            cursor: pointer;
+            border-radius: 3%;
+            width: 35%;
+            text-align: center;
+            position: fixed;
+            left: 30%;
+            right: 35%;
+            top: 89%;
+        }
+
+        .SecondForm input[type=text], select {
+            width: 100%;
+            height: auto;
+            padding: 12px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            resize: vertical
+        }
+
+        .SecondForm textarea {
+            width: 100%;
+            padding: 12px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical
+        }
+
+
+
+    .ThirdForm {
+        font-family: cursive;
+        font-weight: 400;
+        border-radius: 15px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        justify-content: center;
+        backdrop-filter: blur(4px);
+        width: 30%;
+        height: auto;
+        right: 5%;
+    }
+
+        .ThirdForm iframe {
+            height: 55%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            border-radius: 5%;
+        }
+
+    .Heading {
+        text-shadow: 1px 1px black;
+    }
+</style>
+
+<center><h1 class="Heading">Контакти</h1> </center>
+<br />
+<div class="contactUs">
+    <div class="FirstForm">
+        <h3>
+            <b>Контакти</b>
+        </h3>
+        <b>Имейл: </b>
+        <p>prostorbg@gmail.com</p>
+        <b>Адрес:</b>
+        <p>град Сопот, България </p>
+        <b>Телефони за връзка: </b>
+        <p>+359 456 987 665</p>
+        <p>+359 967 452 122</p>
+        <p>+359 777 358 918</p>
+    </div>
+    <div class="SecondForm">
+        <fieldset>
+            <legend><b>Свържи се с нас</b></legend>
+            <br />
+            <label><b>Вашите имена: </b></label>
+            <br />
+            <input type="text" />
+            <br />
+            <label><b>Имейл: </b></label>
+            <br />
+            <input type="text" />
+            <label><b>Съобщение: </b></label>
+            <br />
+            <textarea placeholder="Напишете вашето съобщение...."></textarea>
+            <br />
+            <input type="submit" value="Изпрати" />
+        </fieldset>
+    </div>
+    <div class="ThirdForm">
+        <h3><b>Карта</b></h3>
+        <b>Местоположение</b>
+        <p>За по-подробна информация, относно местоположението, разгледайте картата.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4149.657271583471!2d24.7477309869872!3d42.656040456308766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a997279d5eee63%3A0x30c9e27df1c7136b!2z0J_RgNC-0YTQtdGB0LjQvtC90LDQu9C90LAg0LPQuNC80L3QsNC30LjRjyAi0JPQtdC9LiDQktC70LDQtNC40LzQuNGAINCX0LDQuNC80L7QsiI!5e0!3m2!1sbg!2sbg!4v1747679912603!5m2!1sbg!2sbg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
