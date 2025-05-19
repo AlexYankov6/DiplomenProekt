@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A14B45E3-DF2A-4A8E-BAB6-319D90975E32}|ProektAleks.csproj|c:\\users\\aleks\\desktop\\diplomenproekt\\controllers\\apartmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A14B45E3-DF2A-4A8E-BAB6-319D90975E32}|ProektAleks.csproj|solutionrelative:controllers\\apartmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A14B45E3-DF2A-4A8E-BAB6-319D90975E32}|ProektAleks.csproj|c:\\users\\aleks\\desktop\\diplomenproekt\\views\\reservationapartments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A14B45E3-DF2A-4A8E-BAB6-319D90975E32}|ProektAleks.csproj|solutionrelative:views\\reservationapartments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -51,6 +55,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ApartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\Controllers\\ApartmentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApartmentsController.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\Controllers\\ApartmentsController.cs",
+              "RelativeToolTip": "Controllers\\ApartmentsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwBYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T20:27:11.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\Views\\ReservationApartments\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\ReservationApartments\\Create.cshtml",
@@ -63,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\Views\\ReservationHouses\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\ReservationHouses\\Create.cshtml",
@@ -71,12 +88,11 @@
               "RelativeToolTip": "Views\\ReservationHouses\\Create.cshtml",
               "ViewState": "AgIAAGMAAAAAAAAAAAAAAGwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-19T19:18:38.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T19:18:38.827Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -84,12 +100,11 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAACPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-19T18:49:20.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T18:49:20.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Contacts.cshtml",
               "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\Views\\Home\\Contacts.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Contacts.cshtml",
@@ -97,12 +112,11 @@
               "RelativeToolTip": "Views\\Home\\Contacts.cshtml",
               "ViewState": "AgIAAGMAAAAAAAAAAAAAAG0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-19T18:11:59.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T18:11:59.877Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\Views\\ReservationHouses\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\ReservationHouses\\Details.cshtml",
@@ -110,12 +124,11 @@
               "RelativeToolTip": "Views\\ReservationHouses\\Details.cshtml",
               "ViewState": "AgIAAEYAAAAAAAAAAAAgwEsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-19T18:07:08.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T18:07:08.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\Views\\ReservationHouses\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\ReservationHouses\\Index.cshtml",
@@ -123,12 +136,11 @@
               "RelativeToolTip": "Views\\ReservationHouses\\Index.cshtml",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAEQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-19T18:03:14.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T18:03:14.21Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\Views\\ReservationApartments\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\ReservationApartments\\Index.cshtml",
@@ -136,12 +148,11 @@
               "RelativeToolTip": "Views\\ReservationApartments\\Index.cshtml",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAC0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-19T16:57:52.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T16:57:52.077Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\Views\\ReservationApartments\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\ReservationApartments\\Details.cshtml",
@@ -149,12 +160,11 @@
               "RelativeToolTip": "Views\\ReservationApartments\\Details.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAC0AAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-19T17:24:32.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T17:24:32.734Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\DiplomenProekt\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -162,8 +172,7 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AgIAAO0AAAAAAAAAAAAUwAEBAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-28T08:41:26.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T08:41:26.979Z"
             }
           ]
         }

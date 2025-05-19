@@ -20,7 +20,7 @@ namespace ProektAleks.Controllers
             _context = context;
         }
 
-        // GET: Apartments
+        // GET: Apartment
         public async Task<IActionResult> Index()
         {
             var applicationDbContext = _context.Apartments.Include(a => a.Categories);
